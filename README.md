@@ -1,4 +1,4 @@
-# Comandos para React-native
+# :thinking: Comandos para React-native
 
 Comandos do react-native que salvam em qualquer hora que você estiver em desespero...
 

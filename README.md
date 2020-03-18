@@ -3,8 +3,11 @@
 Comandos do react-native que salvam em qualquer hora que você estiver em desespero...
 
 ### Gerar apk:
+```js
+  cd android && gradlew clean && gradlew assembleRelease && cd ..
+```
 
-cd android && gradlew clean && gradlew assembleRelease && cd ..
+
 
 ### Instalar dependencias no ios:
 

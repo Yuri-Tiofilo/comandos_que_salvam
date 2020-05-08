@@ -24,7 +24,7 @@ cd android && gradlew clean && cd .. && react-native run-android
 ```js
 cd android && gradlew clean && cd ..
 ```
-### Iniciar um projeto react-native:
+### Iniciar um projeto react-native TYPESCRIPT:
 ```js
 npx react-native init apptest --template react-native-template-typescript
 ```

@@ -44,4 +44,9 @@ yarn add eslint -D
 yarn eslint --init
 ```
 
+### Instalando o Prettier e seus plugins:
+```js
+yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
+```
+
 

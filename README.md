@@ -34,3 +34,9 @@ npx react-native init apptest --template react-native-template-typescript
 ```js
 npx react-native init apptest --template react-native-template-typescript
 ```
+### Instalando o ES-LINT:
+```js
+yarn add eslint -D 
+```
+
+

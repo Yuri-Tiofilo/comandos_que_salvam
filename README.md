@@ -49,4 +49,8 @@ yarn eslint --init
 yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
 ```
 
+### Instalando o config de import:
+```js
+yarn add eslint-import-resolver-typescript -D
+```
 

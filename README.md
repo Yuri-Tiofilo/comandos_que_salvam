@@ -53,4 +53,8 @@ yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
 ```js
 yarn add eslint-import-resolver-typescript -D
 ```
+### Instalando o React Navigation:
+```js
+yarn add @react-navigation/native
+```
 

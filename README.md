@@ -58,3 +58,25 @@ yarn add eslint-import-resolver-typescript -D
 yarn add @react-navigation/native
 ```
 
+### Add no index ou App da raiz do projeto:
+```js
+import 'react-native-gesture-handler';
+```
+### Por volta de tudo deverá ter esse container:
+```js
+import { NavigationContainer } from '@react-navigation/native';
+
+export default function App() {
+  return (
+    <NavigationContainer>{/* Rest of your app code */}</NavigationContainer>
+  );
+}
+```
+
+
+
+### Instalando o Stack Navigation:
+```js
+yarn add @react-navigation/stack
+```
+

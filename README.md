@@ -32,7 +32,7 @@ npx react-native init apptest --template react-native-template-typescript
 
 ### Iniciar um projeto react-native JAVASCRIPT:
 ```js
-npx react-native init apptest --template react-native-template-typescript
+npx react-native init apptest
 ```
 ### Instalando o ES-LINT:
 ```js

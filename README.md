@@ -11,7 +11,7 @@ Comandos do react-native que salvam em qualquer hora que você estiver em desesp
 ### Instalar dependencias no ios:
 
 ```js
-yarn && cd ios && pod install && cd ..
+yarn;cd ios;pod install; cd ..
 ```
 
 ### Instalar o aplicativo:

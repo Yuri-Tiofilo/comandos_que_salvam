@@ -17,7 +17,7 @@ yarn && cd ios && pod install && cd ..
 ### Instalar o aplicativo:
 
 ```js
-cd android && gradlew clean && cd .. && react-native run-android
+cd android;./gradlew clean;cd ..;npx react-native run-android
 ```
 
 ### Limpar o gradlew:

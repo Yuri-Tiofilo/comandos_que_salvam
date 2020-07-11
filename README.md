@@ -5,7 +5,7 @@ Comandos do react-native que salvam em qualquer hora que você estiver em desesp
 ### Gerar apk:
 
 ```js
-  cd android && gradlew clean && gradlew assembleRelease && cd ..
+  cd android;gradlew clean;gradlew assembleRelease;cd ..
 ```
 
 ### Instalar dependencias no ios:
@@ -22,7 +22,7 @@ cd android;./gradlew clean;cd ..;npx react-native run-android
 
 ### Limpar o gradlew:
 ```js
-cd android && gradlew clean && cd ..
+cd android;gradlew clean;cd ..
 ```
 
 ### Iniciar um projeto react-native TYPESCRIPT:

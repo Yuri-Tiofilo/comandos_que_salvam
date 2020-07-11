@@ -25,6 +25,12 @@ cd android;./gradlew clean;cd ..;npx react-native run-android
 cd android;gradlew clean;cd ..
 ```
 
+## Trabalhar localmente utilizando API, para que o emulador consiga acessar:
+
+```js
+adb reverse tcp:9090 tcp:9090
+```
+
 ### Iniciar um projeto react-native TYPESCRIPT:
 ```js
 npx react-native init apptest --template react-native-template-typescript

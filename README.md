@@ -20,6 +20,14 @@ yarn;cd ios;pod install; cd ..
 cd android;./gradlew clean;cd ..;npx react-native run-android
 ```
 
+### Instalar e rodar um app react-native no Ubuntu-Linux
+
+```js
+  yarn android;yarn start
+```
+
+##### Este comando é devido o bundle não abrir, neste caso teremos que rodar o bundle em um terminal.
+
 ### Limpar o gradlew:
 ```js
 cd android;gradlew clean;cd ..

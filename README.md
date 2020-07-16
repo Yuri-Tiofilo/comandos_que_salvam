@@ -99,3 +99,9 @@ yarn add @react-navigation/stack
 sudo -u postgres psql
 ```
 
+### Escolher client no dbeaver (ubuntu):
+
+```
+/usr/bin/pg_dump
+```
+

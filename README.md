@@ -94,3 +94,8 @@ export default function App() {
 yarn add @react-navigation/stack
 ```
 
+### Postgres no ubuntu
+```js
+sudo -u postgres psql
+```
+

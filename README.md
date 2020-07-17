@@ -107,6 +107,6 @@ sudo -u postgres psql
 ### Restore database per line of code (ubuntu):
 
 ```
-psql -U username -d dbname < filename.sql
+sudo -u postgres psql -U postgres -d database < '/caminho-da-image'
 ```
 É necessario ter o postgresSQL instalado localmente em sua maquina

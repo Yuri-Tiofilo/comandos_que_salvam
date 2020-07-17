@@ -1,4 +1,4 @@
-# :thinking: Comandos para React-native
+# :thinking: Comandos que salvam
 
 Comandos do react-native que salvam em qualquer hora que você estiver em desespero...
 
@@ -104,4 +104,9 @@ sudo -u postgres psql
 ```
 /usr/bin/pg_dump
 ```
+### Restore database per line of code (ubuntu):
 
+```
+psql -U username -d dbname < filename.sql
+```
+É necessario ter o postgresSQL instalado localmente em sua maquina

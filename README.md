@@ -116,5 +116,9 @@ sudo -u postgres psql -U postgres -d database < '/caminho-da-image'
 ```
 echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p'
 ```
+#### React error: Import in body of module; reorder to top
 
+```
+adicione na frente da linha que está o erro este comando comentado: // eslint-disable-line
+```
 

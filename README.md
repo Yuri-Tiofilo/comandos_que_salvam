@@ -110,3 +110,11 @@ sudo -u postgres psql
 sudo -u postgres psql -U postgres -d database < '/caminho-da-image'
 ```
 É necessario ter o postgresSQL instalado localmente em sua maquina
+
+### Erro ao dar yarn muitas vezes:
+
+```
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p'
+```
+
+

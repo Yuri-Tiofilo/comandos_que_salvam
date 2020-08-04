@@ -124,7 +124,11 @@ adicione na frente da linha que está o erro este comando comentado: // eslint-d
 
 #### Desabiliar eslint:
 ```
-To disable all rules on a specific line, use a line comment in one of the following formats: alert('foo'); // eslint-disable-line // eslint-disable-next-line alert('foo'); To disable a specific rule on a specific line: alert('foo'); // eslint-disable-line no-alert // eslint-disable-next-line no-alert alert('foo');
+To disable all rules on a specific line, use a line comment in one of the following formats: alert('foo'); 
+// eslint-disable-line ;
+// eslint-disable-next-line alert('foo'); To disable a specific rule on a specific line: alert('foo'); 
+// eslint-disable-line no-alert ;
+// eslint-disable-next-line no-alert alert('foo');
 ```
 
 #### install golang ubuntu:

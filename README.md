@@ -1,6 +1,6 @@
 # :thinking: Comandos que salvam
 
-Comandos do react-native que salvam em qualquer hora que você estiver em desespero...
+Comandos que salvam em qualquer hora que você estiver em desespero...
 
 ### Gerar apk:
 

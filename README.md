@@ -14,10 +14,15 @@ Comandos que salvam em qualquer hora que você estiver em desespero...
 yarn;cd ios;pod install; cd ..
 ```
 
-### Instalar o aplicativo:
+### Instalar o aplicativo android:
 
 ```js
 cd android;./gradlew clean;cd ..;npx react-native run-android
+
+ou
+
+cd android;./gradlew clean;cd ..;yarn android
+
 ```
 
 ### Instalar e rodar um app react-native no Ubuntu-Linux

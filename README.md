@@ -147,3 +147,9 @@ sudo apt install golang-go
 ```` 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ````
+
+#### Iniciar um projeto com NextJS:
+
+````
+yarn create next-app nomeprojeto
+````

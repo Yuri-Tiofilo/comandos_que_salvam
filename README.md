@@ -153,3 +153,8 @@ sudo apt install golang-go
 ````
 yarn create next-app nomeprojeto
 ````
+
+#### Depois para utilizar typescript rode o comando:
+````
+yarn add typescrpt -D
+````

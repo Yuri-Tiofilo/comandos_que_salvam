@@ -177,3 +177,14 @@ yarn add typescrpt -D
   console.log(`${day}/${month}/${year}`)
   // 31/12/2020
 ````
+
+### Mascara de input para R$:
+
+````
+export function maskCurrency(value: string): string {
+  return value
+    .replace(/\D/g, '')
+    .replace(/(\d)(\d{2})$/, '$1,$2')
+    .replace(/(?=(\d{3})+(\D))\B/g, '.');
+}
+````

@@ -188,3 +188,10 @@ export function maskCurrency(value: string): string {
     .replace(/(?=(\d{3})+(\D))\B/g, '.');
 }
 ````
+### utilizando sequelize:
+
+````
+npm install --save-dev sequelize-cli
+
+npx sequelize-cli init
+````

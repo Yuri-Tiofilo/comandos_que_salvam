@@ -203,3 +203,9 @@ setX /M ANDROID_HOME "C:\Users\pdjkl\AppData\Local\Android\Sdk"
 setX /M PATH "%ANDROID_HOME%\tools;%PATH%"
 setX /M PATH "%ANDROID_HOME%\platform-tools;%PATH%"
 ````
+
+### Projetos que não utilizam yarn para instalar de forma melhor as dependencias utilize:
+
+````
+npm ci --silent
+````

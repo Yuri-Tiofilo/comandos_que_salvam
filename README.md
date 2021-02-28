@@ -209,3 +209,9 @@ setX /M PATH "%ANDROID_HOME%\platform-tools;%PATH%"
 ````
 npm ci --silent
 ````
+
+### Default branch main:
+
+````
+git config --global init.defaultBranch main
+````

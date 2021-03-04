@@ -156,7 +156,7 @@ yarn create next-app nomeprojeto
 
 #### Depois para utilizar typescript rode o comando:
 ````
-yarn add typescrpt -D
+yarn add typescrpt @types/node @types/react -D
 ````
 
 #### Padrão da Data pt-BR:

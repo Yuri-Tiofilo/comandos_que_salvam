@@ -215,3 +215,15 @@ npm ci --silent
 ````
 git config --global init.defaultBranch main
 ````
+
+### Criar projeto flutter com linha de comando:
+
+````
+flutter create testeapp
+````
+
+### Inicializando seu projeto flutter
+````
+cd testeapp
+flutter run
+````

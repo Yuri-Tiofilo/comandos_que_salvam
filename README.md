@@ -227,3 +227,12 @@ flutter create testeapp
 cd testeapp
 flutter run
 ````
+
+### Install mysql and mysqlWorkbench:
+````
+sudo apt update
+sudo apt upgrade
+sudo apt-get install mysql-server mysql-client (isso não é para docker)
+sudo apt install mysql-workbench
+```
+

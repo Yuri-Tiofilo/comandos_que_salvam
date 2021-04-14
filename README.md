@@ -235,4 +235,9 @@ sudo apt upgrade
 sudo apt-get install mysql-server mysql-client (isso não é para docker)
 sudo apt install mysql-workbench
 ````
+### Kill process in port 3000
+````
+sudo lsof -i:3000
+sudo kill PID
+````
 

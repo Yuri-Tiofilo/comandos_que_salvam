@@ -241,3 +241,8 @@ sudo lsof -i:3000
 sudo kill PID
 ````
 
+### Flutter get packages
+````
+flutter pub get
+````
+

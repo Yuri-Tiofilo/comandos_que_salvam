@@ -246,3 +246,8 @@ sudo kill PID
 flutter pub get
 ````
 
+### Merge abort
+````
+git merge --abort
+````
+

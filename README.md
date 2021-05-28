@@ -251,3 +251,7 @@ flutter pub get
 git merge --abort
 ````
 
+## git merge 
+````
+git merge --no-ff nome_da_branch
+````

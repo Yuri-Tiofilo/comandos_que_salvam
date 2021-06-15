@@ -255,6 +255,10 @@ git merge --abort
 ````
 git merge --no-ff nome_da_branch
 ````
+## git fetch 
+````
+git fetch
+````
 
 ## install Vagrant 
 ````

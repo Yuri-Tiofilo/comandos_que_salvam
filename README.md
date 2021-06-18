@@ -268,3 +268,10 @@ sudo apt install ./vagrant_2.2.9_x86_64.deb
 teste:
 vagrant --version
 ````
+## Error: ENOSPC: System limit for number of file watchers reached:
+
+````
+cat /proc/sys/fs/inotify/max_user_watches -> retorna 8192;
+
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p -> para ajustar o limite novo
+````

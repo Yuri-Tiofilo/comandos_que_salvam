@@ -279,3 +279,9 @@ cat /proc/sys/fs/inotify/max_user_watches -> retorna 8192;
 
 echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p -> para ajustar o limite novo
 ````
+
+## Delete branch in Git
+
+````
+git branch -d 'nome da sua branch'
+````

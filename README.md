@@ -267,6 +267,10 @@ sudo apt install ./vagrant_2.2.9_x86_64.deb
 
 teste:
 vagrant --version
+
+vagrant plugin install vagrant-disksize
+
+vagrant plugin install vagrant-vbguest
 ````
 ## Error: ENOSPC: System limit for number of file watchers reached:
 

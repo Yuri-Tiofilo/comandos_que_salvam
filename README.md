@@ -285,3 +285,10 @@ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo s
 ````
 git branch -d 'nome da sua branch'
 ````
+
+## Initialize vagrant and signIn vagrant
+
+````
+vagrant up;vagrant ssh
+````
+

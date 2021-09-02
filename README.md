@@ -292,3 +292,10 @@ git branch -d 'nome da sua branch'
 vagrant up;vagrant ssh
 ````
 
+
+## Install Postgress ubuntu 18.04
+
+````
+sudo apt update
+sudo apt install postgresql postgresql-contrib
+````

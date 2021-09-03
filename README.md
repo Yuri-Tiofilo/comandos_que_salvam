@@ -299,3 +299,9 @@ vagrant up;vagrant ssh
 sudo apt update
 sudo apt install postgresql postgresql-contrib
 ````
+
+### Dar premissão a um diretório
+
+````
+sudo chmod -R 777 diretorio
+````

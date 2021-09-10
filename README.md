@@ -305,3 +305,9 @@ sudo apt install postgresql postgresql-contrib
 ````
 sudo chmod -R 777 diretorio
 ````
+
+### Comands config VPN
+
+````
+openvpn --config /etc/openvpn/arquivo-de-config.opvn
+````

@@ -77,6 +77,12 @@ yarn add eslint-import-resolver-typescript -D
 yarn add @react-navigation/native
 ```
 
+### Initial app expo typescript
+````js
+expo init --template expo-template-bare-typescript --name appname
+````
+
+
 ### Add no index ou App da raiz do projeto:
 ```js
 import 'react-native-gesture-handler';

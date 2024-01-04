@@ -321,3 +321,9 @@ openvpn --config /etc/openvpn/arquivo-de-config.opvn
 flutter run --no-sound-null-safety
 <br/>
 yarn prisma db pull
+
+````
+git push --delete origin 0.0.0
+git tag -l
+git push -f
+````

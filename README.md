@@ -327,3 +327,10 @@ git push --delete origin 0.0.0
 git tag -l
 git push -f
 ````
+
+
+````
+git submodule status
+git submodule init
+git submodule update
+````

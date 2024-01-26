@@ -334,3 +334,8 @@ git submodule status
 git submodule init
 git submodule update
 ````
+
+Regex orders vtex
+````
+/^[\d\w-]{5,20}$/
+````

@@ -339,3 +339,9 @@ Regex orders vtex
 ````
 /^[\d\w-]{5,20}$/
 ````
+
+Connect DB dbever
+
+````
+jdbc:mysql://localhost:3306/db?allowPublicKeyRetrieval=true&useSSL=false
+````

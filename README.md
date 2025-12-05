@@ -345,3 +345,11 @@ Connect DB dbever
 ````
 jdbc:mysql://localhost:3306/db?allowPublicKeyRetrieval=true&useSSL=false
 ````
+
+Clean Mac 
+
+````
+npx mac-cleaner-cli
+````
+
+
